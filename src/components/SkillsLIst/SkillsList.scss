@@ -1,0 +1,15 @@
+.skillslist {
+	font-size: 14px;
+	margin-right: 50px;
+	padding: 0.7px;
+	border-radius: 10px;
+	cursor: pointer;
+	height: 2rem;
+	display: flex;
+	align-items: center;
+
+	&.active {
+		background-color: rgb(23, 73, 224);
+		color: #fdfdfd;
+	}
+}

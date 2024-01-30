@@ -1,0 +1,36 @@
+.work {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.workCentent {
+		width: 90%;
+		padding: 1rem;
+
+		.badgeTop {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			.headerText {
+				background-color: #FFF;
+				width: 20rem;
+				color: #111;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				padding: 0.5rem;
+				border-radius: 15px;
+
+				span {
+					font-size: 20px;
+					font-weight: bold;
+				}
+
+				img {
+					width: 3rem;
+				}
+			}
+		}
+	}
+}
